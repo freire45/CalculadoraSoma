@@ -1,0 +1,16 @@
+Programa CalculadoraSoma;
+
+Variáveis
+   Numero1 : Inteiro;
+   Numero2 : Inteiro;
+   Resultado: Inteiro;
+
+Inicio
+   Escreva("Calculadora de Soma: \n");
+   Escreva("Digite o primeiro valor: ");
+   Leia (Numero1);
+   Escreva("Digite o segundo valor: ");
+   Leia (Numero2);
+   Resultado = Numero1 + Numero2;
+   Escreva("O resultado final é: ", Resultado);
+Fim
